@@ -29,4 +29,15 @@ python run.py
 
 Configuro minha pasta .vscode no arquivo settings.json para tornar "invissivel" todos aqueles arquivos que estariam poluindo visualmente meu projeto
 
-25:59
+pasta models/settings para se conectar com o banco de dados
+
+models/repositories para fazer ações no nosso banco
+
+pytest:
+https://pypi.org/project/pytest/
+https://docs.pytest.org/en/latest/
+
+pip3 install pytest
+
+### Rodar os testes unitários:
+pytest -s -v src/models/repositories/trips_repository_test.py
