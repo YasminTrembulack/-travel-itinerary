@@ -1,3 +1,5 @@
+https://app.rocketseat.com.br/events/nlw-journey/python/aula-01-python
+
 Banco de dados(SQLlite)
 https://dbeaver.io/download/
 
@@ -26,3 +28,5 @@ Dentro da pasta src/main/server etaram as configurações de servidor
 python run.py
 
 Configuro minha pasta .vscode no arquivo settings.json para tornar "invissivel" todos aqueles arquivos que estariam poluindo visualmente meu projeto
+
+25:59
