@@ -41,3 +41,5 @@ pip3 install pytest
 
 ### Rodar os testes unitários:
 pytest -s -v src/models/repositories/trips_repository_test.py
+pytest -s -v src/models/repositories/emails_to_invite_repository_test.py
+
