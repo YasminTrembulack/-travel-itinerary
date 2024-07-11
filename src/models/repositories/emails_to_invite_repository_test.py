@@ -23,6 +23,7 @@ def test_find_emails_from_trip():
     conn = db_connection_handler.get_connection()
     emails_to_invite_repository = EmailsToInviteRepository(conn)
 
-    emails = emails_to_invite_repository.find_emails_from_trip(trip_id)
-    print()
-    print(emails)
+    response = emails_to_invite_repository.find_emails_from_trip(trip_id)
+    
+    assert isinstance(response, list)
+    assert isinstance(response[0], tuple)

@@ -33,9 +33,9 @@ def test_find_trip_by_id():
     conn = db_connection_handler.get_connection()
     trips_repository = TripsRepository(conn)
 
-    trip = trips_repository.find_trip_by_id(trip_id)
-    print()
-    print(trip)
+    response = trips_repository.find_trip_by_id(trip_id)
+
+    assert isinstance(response, tuple)
 
 
 @pytest.mark.skip(reason="interacao com o banco")

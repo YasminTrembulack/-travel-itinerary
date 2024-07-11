@@ -5,7 +5,7 @@ class LinksRepository:
     def __init__(self, conn: Connection) -> None:
         self.__conn = conn
     
-    def registry_link(self, links_infos: Dict) -> None:
+    def registry_link(self, link_infos: Dict) -> None:
         cursor = self.__conn.cursor()
         cursor.execute(
             '''
@@ -14,10 +14,10 @@ class LinksRepository:
                 VALUES
                     (?, ?, ?, ?)
             ''', (
-                links_infos["id"],
-                links_infos["trip_id"],
-                links_infos["link"],
-                links_infos["title"]
+                link_infos["id"],
+                link_infos["trip_id"],
+                link_infos["link"],
+                link_infos["title"]
             )
         )
         self.__conn.commit()

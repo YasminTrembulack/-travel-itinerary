@@ -1,9 +1,10 @@
+# Aula 1
 https://app.rocketseat.com.br/events/nlw-journey/python/aula-01-python
 
-Banco de dados(SQLlite)
+## Banco de dados(SQLlite)
 https://dbeaver.io/download/
 
-User Guide:
+## User Guide:
 https://virtualenv.pypa.io/en/latest/user_guide.html
 
 pip install virtualenv
@@ -14,17 +15,17 @@ python -m venv venv
 .\venv\Scripts\Activate
     trabalhar com diferentes locais de python
 
-Framework Flask
+## Framework Flask
 https://pypi.org/project/Flask/
 
 pip3 install Flask
     como estamos no ambiente virtual venv, quando instalamos, por exemplo o Flask ele na verdade está sendo instaladp dentro da pasta venv 
 
-*** Quando criamos uma pasta em python criar um arquino __init__.py que possibilitara a importação e exportação de arquivos (ex de import: from src.main.server.server import app)
+* Quando criamos uma pasta em python criar um arquino __init__.py que possibilitara a importação e exportação de arquivos (ex de import: from src.main.server.server import app)
 
 Dentro da pasta src/main/server etaram as configurações de servidor
 
-### Para rodar o servidor:
+* Para rodar o servidor:
 python run.py
 
 Configuro minha pasta .vscode no arquivo settings.json para tornar "invissivel" todos aqueles arquivos que estariam poluindo visualmente meu projeto
@@ -33,13 +34,18 @@ pasta models/settings para se conectar com o banco de dados
 
 models/repositories para fazer ações no nosso banco
 
-pytest:
+# pytest:
 https://pypi.org/project/pytest/
 https://docs.pytest.org/en/latest/
 
 pip3 install pytest
 
-### Rodar os testes unitários:
+# Rodar os testes unitários:
 pytest -s -v src/models/repositories/trips_repository_test.py
 pytest -s -v src/models/repositories/emails_to_invite_repository_test.py
+pytest -s -v src/models/repositories/links_repository_test.py
+
+# Aula 2
+https://app.rocketseat.com.br/events/nlw-journey/python/aula-02-python
+
 
