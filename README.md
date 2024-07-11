@@ -23,7 +23,7 @@ pip3 install Flask
 
 * Quando criamos uma pasta em python criar um arquino __init__.py que possibilitara a importação e exportação de arquivos (ex de import: from src.main.server.server import app)
 
-Dentro da pasta src/main/server etaram as configurações de servidor
+Dentro da pasta src/main/server estaram as configurações de servidor
 
 * Para rodar o servidor:
 python run.py
@@ -48,4 +48,4 @@ pytest -s -v src/models/repositories/links_repository_test.py
 # Aula 2
 https://app.rocketseat.com.br/events/nlw-journey/python/aula-02-python
 
-
+Dentro da pasta src/main/server etaram as logicas de processos, como de inserção busca, viagens etc.
