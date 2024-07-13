@@ -58,3 +58,6 @@ https://pypi.org/project/requests/
 
 vamos testar com email ficticios com esse comando:
 python create_email.py
+
+depois é só fazer o login com a resposta no site a baixo
+https://ethereal.email/
