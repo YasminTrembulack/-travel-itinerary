@@ -16,7 +16,7 @@ class ActivitiesRepository:
             ''', (
                 activity_infos["id"],
                 activity_infos["trip_id"],
-                activity_infos["email"],
+                activity_infos["title"],
                 activity_infos["occurs_at"]
             )
         )

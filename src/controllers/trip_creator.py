@@ -1,4 +1,5 @@
 from typing import Dict
+from src.drives.email_sender import send_email
 import uuid
 
 class TripCreator:
@@ -23,6 +24,11 @@ class TripCreator:
                         "email": email,
                         "trip_id": trip_id
                     })
+
+            send_email(
+                [body["owner_email"]], 
+                f"http://localhost:3000/trips/{trip_id}/confirm"
+            )
             return {
                 "body": { "id": trip_id },
                 "status_code": 201  #significa Criado com sucesso

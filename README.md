@@ -50,3 +50,11 @@ pytest -s -v src/models/repositories/links_repository_test.py
 https://app.rocketseat.com.br/events/nlw-journey/python/aula-02-python
 
 Dentro da pasta src/main/server etaram as logicas de processos, como de inserção busca, viagens etc.
+
+# Aula 3
+## Framework Resquests
+pip3 install requests
+https://pypi.org/project/requests/
+
+vamos testar com email ficticios com esse comando:
+python create_email.py

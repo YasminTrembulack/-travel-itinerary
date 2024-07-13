@@ -19,7 +19,6 @@ class LinkFinder:
                 "body": { "links": formatted_links },
                 "status_code": 200
             }
-        
         except Exception as exception:
             return {
                 "body": { "error": "Bad Request", "message": str(exception) },
